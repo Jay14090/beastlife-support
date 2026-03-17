@@ -1,0 +1,69 @@
+================================================================================
+SEE BEFORE USING: BEASTLIFE SUPPORT INTELLIGENCE PLATFORM
+================================================================================
+
+This system is a production-grade AI support intelligence web application built for 
+Beastlife Fitness Nutrition. 
+
+It is designed to automate Level-1 customer support tickets using OpenAI and 
+provide immediate management visibility through real-time SLA trackers, ROI calculators, 
+urgency volume heatmaps, and a global notification smart-alert engine.
+
+--------------------------------------------------------------------------------
+=> 🌐 LIVE DEPLOYMENT URL (VERCEL):
+--------------------------------------------------------------------------------
+You can view the live, fully functional application right here in your browser:
+
+👉 https://beastlife-support.vercel.app/
+
+(Note: The Vercel URL will be updated automatically upon successful deployment.)
+
+--------------------------------------------------------------------------------
+=> 💻 HOW TO RUN THIS ON YOUR PC (LOCAL DEVELOPMENT)
+--------------------------------------------------------------------------------
+If you are a developer or supervisor who wants to run the source code on your local machine, 
+please follow these exact steps:
+
+PREREQUISITES:
+1. You must have Node.js installed (v18+ recommended).
+2. You must have an OpenAI API Key.
+
+STEP 1: DOWNLOAD & EXTRACT
+Download the repository or clone it via GitHub.
+Navigate your terminal into the root folder: `cd beastlife-support`
+
+STEP 2: ENVIRONMENT VARIABLES
+In the root `beastlife-support` directory, there is a file named `.env.example`.
+Rename this file to `.env` (or create a new file named `.env`).
+Open it and paste your OpenAI API Key:
+
+OPENAI_API_KEY=sk-your-real-api-key-goes-here
+PORT=3001
+
+STEP 3: INSTALL ALL DEPENDENCIES
+Run the following command in your terminal from the root folder:
+`npm run install:all`
+(This will concurrently install the root, frontend, and backend packages).
+
+STEP 4: START THE APPLICATION
+Run the following command:
+`npm run dev`
+
+This will boot up both systems concurrently:
+- The Backend Engine will start on `http://localhost:3001`
+- The Frontend Application will start on `http://localhost:5173` (or 5174/5175 if busy)
+
+Your terminal will display the exact Local URL. Hold 'Ctrl' and click the URL to open it.
+
+--------------------------------------------------------------------------------
+=> 🔥 KEY SHOWCASE FEATURES TO TEST:
+--------------------------------------------------------------------------------
+1. Navigate to the "AI Analyzer" tab.
+2. Select one of the pre-written customer queries or type your own angry complaint.
+3. Click "Analyze with AI". 
+4. Watch the Global Notification (Smart Alerts) pop up in the bottom right corner depending on the sentiment.
+5. Navigate to the "Dashboard" and observe the Urgency Heatmap, SLA Breach Trackers, and ROI Calculator update in real-time.
+6. Navigate to the "Query Feed" to use the new Multi-Dimensional filtering system, and export the datastore to CSV.
+
+Thank you.
+================================================================================

@@ -1,0 +1,36 @@
+
+> beastlife-client@1.0.0 dev
+> vite
+
+Port 5173 is in use, trying another one...
+Port 5174 is in use, trying another one...
+Port 5175 is in use, trying another one...
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m482[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5176[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+Error: [31m  Failed to scan for dependencies from entries:
+  D:/study stuff/ai_automation_beastlife/beastlife-support/client/index.html
+
+  [39m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mThe JSX syntax extension is not currently enabled[0m
+
+    src/hooks/useQueries.js:29:4:
+[37m      29 │     [32m<[37mGlobalContext.Provider value={{ queries, addQuery, analytics,...
+         ╵     [32m^[0m
+
+  The esbuild loader for this file is currently set to "js" but it must be set to "jsx" to be able to parse JSX syntax. You can use "loader: { '.js': 'jsx' }" to do that.
+
+
+    at failureErrorWithLog (D:\study stuff\ai_automation_beastlife\beastlife-support\client\node_modules\esbuild\lib\main.js:1472:15)
+    at D:\study stuff\ai_automation_beastlife\beastlife-support\client\node_modules\esbuild\lib\main.js:945:25
+    at runOnEndCallbacks (D:\study stuff\ai_automation_beastlife\beastlife-support\client\node_modules\esbuild\lib\main.js:1315:45)
+    at buildResponseToResult (D:\study stuff\ai_automation_beastlife\beastlife-support\client\node_modules\esbuild\lib\main.js:943:7)
+    at D:\study stuff\ai_automation_beastlife\beastlife-support\client\node_modules\esbuild\lib\main.js:955:9
+    at new Promise (<anonymous>)
+    at requestCallbacks.on-end (D:\study stuff\ai_automation_beastlife\beastlife-support\client\node_modules\esbuild\lib\main.js:954:54)
+    at handleRequest (D:\study stuff\ai_automation_beastlife\beastlife-support\client\node_modules\esbuild\lib\main.js:647:17)
+    at handleIncomingPacket (D:\study stuff\ai_automation_beastlife\beastlife-support\client\node_modules\esbuild\lib\main.js:672:7)
+    at Socket.readFromStdout (D:\study stuff\ai_automation_beastlife\beastlife-support\client\node_modules\esbuild\lib\main.js:600:7)
+Terminate batch job (Y/N)? Terminate batch job (Y/N)? 
